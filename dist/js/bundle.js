@@ -1,2 +1,2 @@
-(()=>{"use strict";let e=document.querySelector("button"),t=document.querySelector("input");e.addEventListener("click",(e=>{console.log(t.value)}))})();
+(()=>{"use strict";let t=document.querySelector("button"),e=document.querySelector("input");t.addEventListener("click",(t=>{localStorage.setItem(`child${Math.floor(10*Math.random())}`,JSON.stringify(e.value))}))})();
 //# sourceMappingURL=bundle.js.map
